@@ -1,0 +1,232 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    overflow-x: hidden;   
+}
+
+.heroBanner {
+    position: absolute;
+    z-index: -1;
+    width : 100%;
+    height: 850px;
+    object-fit: cover;
+  }
+
+.navElements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menuHome {
+    width: 33%;
+}
+
+.showNavItens {
+    display: flex;
+    flex-direction: row;   
+    margin: 20px;
+}
+
+.active {
+    position: relative;
+}
+
+.showNavItens .active::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -30px;
+    width: 44px;
+    height: 4px;
+    background-color: green;
+}
+
+
+.showNavItens a {
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff; 
+} 
+
+.imagemLogo {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin: 10px;
+    max-height: 250px;
+    max-width: 250px;
+}
+
+.containerSearchBox {
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchBox {
+    
+}
+
+.inputBox {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    border-style: none;
+    border-radius: 25px;
+    width: 80%;
+    height: 25px;
+    padding: 0 0 0 8px;
+}
+
+.inputBox::placeholder { 
+    color: #000000;
+    opacity: 1; 
+  }
+
+.lupa {
+    max-height: 15px;
+    max-width: 15px;
+    position: absolute;
+    padding: 25px 25px 20px 20px;
+    z-index: 2;
+}
+
+#divSearch {
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    
+  }
+  
+#txtSearch {
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    max-width:150px;  
+  }
+
+.titleHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 290px;
+  }
+
+#title {
+    color: #ffffff;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+#trabalheConosco {
+    background-color: #54d154;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.scroll p {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-style: none;
+    border-radius: 25px;
+    height: 22px;
+    width: 150px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.titleCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+    color: #828181;
+}
+
+.titleCard h2 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.titleCard p {
+    font-size: 16px;
+    color: #b7b3b3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h-bar {
+    width: 50px;
+    border: 1px solid #bbbbbb;
+    margin: 10px 0;
+}
+
+.footerBox {
+    display: flex;
+    justify-content: center;
+}
+
+.footerBoxAlign {
+    display: flex;
+    max-width: 1000px;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.cards {
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.cards img {
+    margin: 30px
+}
+
+.cards h3 {
+    margin: 20px;
+    font-size: 20px;
+    color: #828181;
+}
+
+.cards p {
+    font-size: 15px;
+    color: #b7b3b3;
+    width: 300px;
+}
+
+.cards button {
+    margin: 20px;
+    background-color: #54d154;
+    width: 140px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
